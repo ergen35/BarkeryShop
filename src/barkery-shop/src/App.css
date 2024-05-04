@@ -70,3 +70,13 @@ body {
     font-family: "Montserrat", sans-serif;
     background-color: #FFE7E7;
 }
+
+.gradient-color {
+    background: -webkit-linear-gradient(#81008C, #540096);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.btn-primary {
+    @apply bg-primary rounded-md text-white px-3 py-1.5 shadow-sm font-medium;
+}

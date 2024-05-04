@@ -34,7 +34,7 @@ function Navbar() {
                 </nav>
                 <div className="flex space-x-4">
                     <a className="me-1">Login/Register</a>
-                    <div className="flex row space-x-2 items-center">
+                    <div className="flex flex-row space-x-2 items-center">
                         <FaRegHeart size={20} className="text-tertiary" />
                         <BsHeadsetVr size={20} className="text-[#001A72]" />
                     </div>
